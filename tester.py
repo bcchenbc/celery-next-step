@@ -16,3 +16,4 @@ print("{} + {} = {}".format(x,y,c.get()))
 
 x, y = sample(range(10), 2)
 d = tasks.add.s(x, y)
+print("{} + {} = {}".format(x,y,d()))
